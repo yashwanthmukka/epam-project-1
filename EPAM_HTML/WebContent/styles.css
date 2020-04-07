@@ -1,0 +1,122 @@
+#credentialSection {
+    margin: 100px auto auto;
+    height: 70%;
+    width: 30%;
+    background-color: whitesmoke;
+    box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    border-radius: 5px;
+}
+.div-head {
+    height: fit-content;
+    font-size: 25px;
+    font-family: "JetBrains Mono", serif;
+    text-align: center;
+    background-color: deepskyblue;
+}
+
+.div-head p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+    color: white;
+}
+
+.div-head img {
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+#signIn-form {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.input-field {
+    border-radius: 5px;
+    width: 85%;
+    padding: 7px 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+}
+
+#email {
+    background-image: url('images/mail.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 330px;
+}
+ #password {
+     background-image: url('images/password.png');
+     background-size: 15px;
+     background-repeat: no-repeat;
+     background-position: 330px;
+ }
+
+ .btn {
+     border-radius: 5px;
+     width: 90%;
+     padding: 7px 10px;
+     margin-top: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     height: 40px;
+     font-family: "JetBrains Mono", serif;
+     font-weight: 500;
+     font-size: 25px;
+     display: inline-block;
+     color: white;
+ }
+
+ .form-link {
+     padding: 20px;
+     color: grey;
+     text-decoration: none;
+ }
+
+ #separation-div {
+     display: inline-block;
+ }
+
+ .half-line {
+     width: 100px;
+     padding-left: 15px;
+     padding-right: 15px;
+     color: grey;
+     margin-top: 12px;
+ }
+
+ #separation-text {
+     font-family: "JetBrains Mono", serif;
+     font-size: 25px;
+     color: grey;
+     padding-left: 18px;
+     padding-right: 18px;
+ }
+
+ #facebook {
+     background-color: midnightblue;
+     border-color: midnightblue;
+ }
+
+ #gmail {
+     background-color: orangered;
+     border-color: orangered;
+ }
+
+ #epam {
+     background-color: rgb(198, 211, 16);
+     border-color: rgb(172, 201, 12);
+ }
+
+ #otherLogin {
+     text-align: center;
+ }
